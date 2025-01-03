@@ -1,6 +1,3 @@
-# disp-uniformity-heatmap
-Python script to digitally analyze the uneven brightness zones of a local dimming display
-
 # Display Uniformity Calibration for Local Dimming Displays
 
 This script is designed to calibrate the uneven uniformity zones of the displays featuring local dimming. During the manufacturing process, the script serves as an automated calibration tool that measures the uniformity of the display under test (DUT) while showing a full white pattern at maximum brightness in a dark environment.
@@ -12,6 +9,9 @@ By using a high-resolution camera to capture an image of the display, the script
 
 ## Processed output file with brightness heat markers for each zone
 ![output-file](/images/output.jpg "output-file")
+
+## Processed output file with brightness heat markers for each zone
+![output-csv-file](/images/output.csv "output-csv-file")
 
 ## Features
 
@@ -98,4 +98,4 @@ During manufacturing, this tool is used to generate a uniformity heatmap. The re
 
 ## License
 
-This script is released under the MIT License. See the `LICENSE` file for more details.
+This script is released under the LGPLV3 License. See the `LICENSE` file for more details.
